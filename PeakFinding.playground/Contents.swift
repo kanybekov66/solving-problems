@@ -7,8 +7,12 @@ import UIKit
 let numbers = [1, 2, 3, 5, 9, 4, 3, 2, 1];
 
 // your code here
-numbers.max();
-let peak = numbers.firstIndex(of: numbers.max()!);
+var x = 0
+while numbers[x] < numbers[x+1] {
+    x+=1
+}
+print (numbers[x])
+
 
 
 
